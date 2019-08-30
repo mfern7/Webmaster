@@ -1,0 +1,48 @@
+
+linkmultimedial@gmail.com
+
+ingrid kitanik
+
+diseño multimedial / utn
+
+
+red: utnba
+user: invitados
+pass: at0mqw
+
+se puede pedir tutorias disponibles (consultar con ingrid)
+
+
+
+Juan M Migliore
+
+
+Trabajo practico:
+
+1) presentacion el TP
+2) Front-end --> html / css / js
+3) Full-stack
+
+sublime
+git
+FileZilla
+Photoshop / Gimp
+Ilustrator / Inkspace 
+
+xampp / wamp / manp / lamp
+
+prepros
+Nodejs
+
+
+codepen.io
+github
+Netlify
+gmail
+000webhost / hostinger
+
+
+HTML
+mdn --> mozilla del network
+
+ctrl + f5 --> refresh total
