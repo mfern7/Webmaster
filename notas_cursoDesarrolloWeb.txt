@@ -46,3 +46,6 @@ HTML
 mdn --> mozilla del network
 
 ctrl + f5 --> refresh total
+
+
+https://app.netlify.com/drop/brave-pare-70c27d
