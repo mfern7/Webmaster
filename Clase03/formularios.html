@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<html lang="es">
+	<head>
+		<!-- formularios.html-->
+		<meta charset="utf-8">
+		<title>Formularios</title>
+	</head>
+	<body>
+
+		<h1>Formularios</h1>
+			<!-- action : destino del formulario -->
+
+			<form action="enviar.js" method=""> 
+
+				<!--
+				text : alfanumerico
+				pattern: regular expresions para
+				email: valida direcciones de email
+				button: para JS, si no no tiene sentido
+				submit: llama al action del form
+				reset: vuelve el form a su estado predeterminado
+				placeholder: se borra solo el cont.
+				password: solo oculta caracteres
+				Select: menu dropdown
+				-->
+				Nombre:
+				<label><input type="text" placeholder="Ingrese su Nombre"></label> <br>
+				ingrese tel:
+				<input type="text" pattern="[0-9]{4}-[0-9]{4}" value="4444-4444" title="ingrese telefono"> <br>
+				
+				<!-- required: hace que sea obligatorio-->
+				Email:
+				<label><input type="email" required></label> <br>
+
+				Ingrese contraseña:
+				<input type="password"> <br>
+				Ingrese Fecha:
+				<input type="date"> <br>
+
+				Ingrese Edad:
+				<input type="number" max="120" min="0"> <br>
+
+				Paises:
+					<select>
+						<option>Argentina</option>
+						<option>Brasil</option>
+						<option>Uruguay</option>
+						<option>Chile</option>
+					</select>
+				<br>
+
+				Ciudad:
+				<input type="text" id="ciudad">
+				<datalist id="ciudad">
+					<option>BsAs</option>
+					<option>Cordoba</option>
+					<option>Mendoza</option>
+				</datalist>
+				<br>
+
+				Comida: <br>
+				<!-- label permite cliquear la palabra tambien (siempre conviene ponerlos en todos los input) 
+				name: con el mismo valor crea una lista con selceccion unica de items
+				-->
+				<label><input type="radio" name="comidas">Pollo</label> <br>
+				<label><input type="radio" name="comidas">Pescado</label> <br>
+				<label><input type="radio" name="comidas">Carne</label> <br>
+
+				Postre: <br>
+
+				<label><input type="checkbox" checked> Acepto condiciones</label>
+				<br>
+
+				Comentarios: <br>
+				<!--campo de texto -->
+				<textarea>
+				</textarea>
+
+				<br>
+				<br>
+
+				<input type="button" value="Boton inutil">
+				<input type="submit" value="Enviar">
+				<input type="reset" value="Resetear">
+				<br>
+			</form>
+
+
+	</body>
+</html>
