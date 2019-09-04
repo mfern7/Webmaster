@@ -1,0 +1,32 @@
+/* box-model.css 
+En la misma carpeta que HTML
+ 
+*/
+ 
+ p {
+ 	background-color: pink;
+
+ 	/* content-box (default) SUMA
+ 	   border-box  			  RESTA*/
+ 	box-sizing: border-box;
+
+ 	width: 500px;
+ 	height: 200px;
+ 	border: 10px solid blue;
+ 	padding: 20px
+ }
+
+/* Para las propiedades internas conviene ir de lo general a lo particular para no pisar */
+ .especial {
+
+ 	margin: 50px;
+ 	margin-left: 150px;
+ 	border-right: 3px dashed chocolate;
+ 	border-color:red; 
+ 	border-radius: 10px;
+ }
+
+ table {
+ 	background: red;
+
+ }

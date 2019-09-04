@@ -1,8 +1,8 @@
-/* prueba.css 
+/* selectores.css 
+En la misma carpeta que HTML
 
 */
  
-
 body {
 	background-color: purple;
 	font-family: arial;
@@ -40,4 +40,3 @@ No se puede repetir, conviene no usarlo.
 #voldemort {
 	background-color: black;
 }
-

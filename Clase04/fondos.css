@@ -1,0 +1,14 @@
+/* fondos.css 
+En la misma carpeta que HTML
+ 
+*/
+ 
+
+ body {
+ 	background-color: pink;
+ 	background-image: url(lobo.jpg);
+ 	/* */
+ 	background-size: cover;
+ 	background-repeat: no-repeat;
+ 	background-position: top center;
+}
