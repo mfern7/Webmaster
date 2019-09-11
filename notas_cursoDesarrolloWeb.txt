@@ -54,3 +54,32 @@ https://app.netlify.com/drop/brave-pare-70c27d
 caniuse.com --> comparativa de uso de HTML en distintos navegadores
 
 oldlace --> colores css
+
+
+--------------
+photoshop + ctrl + alt + z  --> undo changes
+
+https://tinypng.com/ --> compresion de archivos imagenes
+
+
+shift + seleccion --> suma seleccion
+alt   + seleccion  -- resta seleccion
+
+ctrl + d -- deseleccionar
+
+youtube: cssconf argentina 2016, practical blend modes
+sitios d imagenes: pexels.com, flicker, https://www.freepik.es
+fonts: https://fonts.google.com/
+dafont
+
+
+mascaras: permite recuperar la imagen anterior al trabajar con capas
+
+
+wireframe:
+https://whimsical.com/
+
+sitios para iconos:
+https://material.io/resources/icons/?style=baseline
+
+https://fontawesome.com/
