@@ -1,0 +1,38 @@
+/* columnas4.css 
+En la misma carpeta que HTML
+ 
+*/
+ 
+body {
+ 	background-color: rgb(55, 138, 233);
+	font-family: fantasy; 
+}
+
+.clase {
+	color: aqua;
+	font-weight: bold;
+}
+
+.clase2 {
+	color: white;
+    font-weight: bold;
+    
+}
+
+/*
+
+DRY --> do not repeat your self
+WET --> write everything twice
+
+wrapper : contenedor para no repetir codigo
+*/
+
+
+
+.prueba {
+    background-image: url('facebook_sprite.png');
+    background-position: bottom left;
+    width: 25px;
+    height: 25px;
+
+}

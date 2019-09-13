@@ -1,0 +1,79 @@
+/* columnas3.css 
+En la misma carpeta que HTML
+ 
+*/
+ 
+body {
+ 	background-color: rgb(55, 138, 233);
+	font-family: fantasy; 
+}
+
+.clase {
+	color: aqua;
+	font-weight: bold;
+}
+
+.clase2 {
+	color: white;
+    font-weight: bold;
+    
+}
+
+/*
+
+DRY --> do not repeat your self
+WET --> write everything twice
+
+wrapper : contenedor para no repetir codigo
+*/
+.wrapper {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+
+
+.cabecera0 {
+    background-color: red;
+	height: 50px;
+    width: 100%;
+}
+
+.cabecera1 {
+    background-color: white;
+	height: 20px;
+    float: left;
+    width: 30%;
+    height: 500px;
+}
+
+
+.derecha {
+    background-color: grey;
+	color: palegoldenrod;
+	font-weight: bold;
+    height: 500px;
+    width: 30%;
+    float: right;
+}
+
+/* Alineacion con flota para 3 o mas columnas: izq,izq,...,der*/
+.cabecera2 {
+    background-color: black;
+	color: green;
+    font-weight: bold;
+    height: 200px;
+    width: 40%;
+    height: 500px;
+    float: left;
+}
+
+.pie {
+    background-color: yellow;
+	color: green;
+    font-weight: bold;
+    height: 50px;
+    /* clear both limpia flotaciones, para que funcione ok el elemento de abajo siguiente*/
+    clear: both;
+}

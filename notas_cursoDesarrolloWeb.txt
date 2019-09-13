@@ -83,3 +83,14 @@ sitios para iconos:
 https://material.io/resources/icons/?style=baseline
 
 https://fontawesome.com/
+
+
+ejercicios de CSS
+
+flexbox froggy
+
+grid garden
+
+css diner
+
+learn layout
