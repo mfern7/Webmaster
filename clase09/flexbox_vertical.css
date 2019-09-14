@@ -1,0 +1,22 @@
+
+.flex{
+    background-color: green;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    /* Alinear en vertical  */
+    align-items: center;
+
+}
+.flex-item a:hover {
+    background: darken(grey, 2%);
+    width: 200px;
+	background-color: gray;
+    height: 100px;
+    text-align: center;
+    /* Centrar en vertical creo un nuevo flexbox dentro del flex hijo*/ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}

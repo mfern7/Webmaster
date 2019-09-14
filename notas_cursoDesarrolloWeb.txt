@@ -3,7 +3,7 @@ linkmultimedial@gmail.com
 
 ingrid kitanik
 
-diseño multimedial / utn
+diseÃ±o multimedial / utn
 
 
 red: utnba
@@ -94,3 +94,16 @@ grid garden
 css diner
 
 learn layout
+
+webackmachine
+
+
+Guias para flexbox y css
+google:
+css tricks
+css tricks flexbox
+
+imagenes unicode: https://unicode-table.com/es/260E/
+a single div
+
+lhyn fisher 

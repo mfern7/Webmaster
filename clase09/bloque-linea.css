@@ -1,0 +1,30 @@
+/* bloque-linea.css 
+En la misma carpeta que HTML
+ 
+
+Elementos de linea (a,input, etc) vs. elementos de bloque : h1,h2,p
+cubren el 100 % del espacio disponible
+
+*/
+ 
+h1, h2, p {
+ 	background-color: purple;
+    font-family: fantasy; 
+    width: 200px;
+    height: 50px;
+    margin: 50px auto;
+    padding: 20px 40px;
+    
+}
+
+
+
+a, input {
+    /*  display: block me lo convierte en bloque*/
+    display: block;
+    background-color: olive;
+    width: 200px;
+    height: 50px;
+    margin: 50px auto;
+    padding: 20px 40px;
+}

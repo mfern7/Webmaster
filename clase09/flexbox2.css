@@ -1,0 +1,10 @@
+
+.flex{
+	display: flex;
+	box-sizing: border-box;
+}
+.flex-item{
+	background-color: rebeccapurple;
+	height: 100px;
+	border: 2px solid gold;
+}

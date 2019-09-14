@@ -1,0 +1,27 @@
+
+/* grilla.css */
+
+.padre {
+    background-color: pink;
+    display: grid;
+    /* fr fragment: se usa para crear columnas*/
+    /* grid-template-columns: 200px 1fr 1fr; */
+    grid-template-columns: repeat(4, 1fr);
+    /* grid gap espacio entre columnas*/
+    grid-gap: 15px;
+    padding: 20px;
+
+}
+
+.hijo {
+    background-color: hotpink;
+    border: 2px solid yellow;
+    padding: 20px;
+}
+
+/* aplico config a clase especial solamente*/
+.especial {
+    background-color: orange;
+    /* usar Firefox para ver numeros de grillas - grillas.png */
+    grid-column: 1 / 4;
+}

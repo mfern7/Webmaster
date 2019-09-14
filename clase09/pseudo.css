@@ -1,0 +1,20 @@
+
+/* pseudo.css */
+
+h1::before {
+    /* content: "Hola" ; */
+    /* https://unicode-table.com/es/260E/ */
+    content: "\260E" ;
+    
+}
+
+h1::after {
+    /* content: "Chau"; */
+    content: "";
+
+    display: inline-block;
+    background-color: red;
+    width: 10px;
+    height: 10px;
+
+}
