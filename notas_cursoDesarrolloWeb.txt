@@ -107,3 +107,17 @@ imagenes unicode: https://unicode-table.com/es/260E/
 a single div
 
 lhyn fisher 
+
+----------
+
+Clase 10
+
+menu horizontal con flex
+
+
+menu1 menu2 menu3			      menu4 menu5 menu6
+
+ul flex             				ul flex
+
+------------------------------------------------------
+			flex

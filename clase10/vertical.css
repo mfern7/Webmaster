@@ -1,0 +1,58 @@
+
+/* vertical.css */
+
+
+/* "*" es el selector universal, sirve para aplicar a todas las etiquetas
+ver tambien arvhivos para resetar valores css
+*/
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+
+}
+
+.botonera {
+     
+    background-color:purple;
+     max-width: 400px;
+     margin: 20px;
+     /* eliminar viñetas*/
+     list-style: none;
+
+
+}
+
+.botonera li {
+    background-color:yellow;
+    max-width: 400px;
+    
+}
+
+.botonera a {
+    background-color:green;
+    max-width: 400px;
+    /* permite que el <li> ocupe todo el espacio*/
+    display: block;
+    padding: 8px 20px;
+    /* eliminar subrayado*/
+    text-decoration: none;
+    /*color de la letra*/
+    color: white;
+    /* tiempo de transicion en el cambio de padding*/
+    transition: padding-left 0.5s;
+
+}
+/*Evento :hover cuando paso el mouse por encima
+otros eventos: 
+     - :active
+     - :link
+     - :visited
+*/
+.botonera a:hover {
+    background-color: orange;
+    /* en el evento vuelve a subrayarse*/
+    text-decoration: underline;
+    color: #222;
+    padding-left: 45px;
+}

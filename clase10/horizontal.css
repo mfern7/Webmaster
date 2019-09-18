@@ -1,0 +1,48 @@
+
+/* horizonal.css */
+
+
+/* "*" es el selector universal, sirve para aplicar a todas las etiquetas
+ver tambien arvhivos para resetar valores css
+*/
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+
+}
+
+.botonera {
+    list-style: none;
+    background-color: pink;
+    max-width: 1000px;
+    margin: 20px auto;
+
+    display: flex;
+ 
+}
+
+.botonera li {
+    /* */
+    flex-grow: 1;
+    background-color: yellow;
+    text-align: center;
+
+}
+.botonera a {
+     
+    background-color: green;
+    display: block;
+    /* padding-top: 8px;
+    padding-bottom: 8px; */
+    padding: 8px 0;
+
+
+}
+
+.botonera a:hover {
+     
+    background-color:orange;
+
+
+}

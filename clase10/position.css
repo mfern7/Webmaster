@@ -1,0 +1,51 @@
+
+/* position.css */
+
+
+.wraper {
+   width: 500px; 
+   background-color:purple;
+   margin: 50px auto;
+
+   position: relative;
+}
+
+
+.wraper div { 
+    background-color: darkred;
+    color: white;
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+    font-size: 32px;
+    margin: 10px;
+    float: left;
+ }
+
+
+div.tres {
+    /* ordena que capa va arriba, el valor mas alto va mas arriba */
+    z-index: 1;
+    background-color: forestgreen;
+    /*
+    static: default, no permite trabajar capas
+    relative: permite trabajar capas, relativo a su posicion original. mantiene su espacio original
+    absolute: permite trabajar capas, relativo a posicion del primer elemento no estatico del contenedor padre (.wraper).
+    Pierde su espacio original.
+    fixed:
+    stiky:
+    */
+    position: absolute; /* lo combino con position: relative en el contedor padre (.wraper) */
+    /* left right top bottom (val + y val -)*/
+    left: 10px;
+    top: 10px;
+
+}
+
+div.dos {
+    background-color: aquamarine;
+    position: sticky; 
+    left: -100px;
+    top: 100px;
+}
