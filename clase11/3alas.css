@@ -1,0 +1,52 @@
+
+/* sticky.css */
+
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+    background-image: url("images/pattern.jpg");
+}
+
+.cabecera {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.slogan {
+    font-family: Arial, sans-serif;
+    color: orange;
+    font-size: 25px;
+
+}
+
+.contenedor {
+    max-width: 1000px;
+    
+}
+
+.contenido {
+    background-color: beige;
+    
+}
+
+.nav {
+    background-color: orange;
+    
+}
+
+.nav-ul {
+    background-color: white;
+    display: flex;
+}
+  
+
+.nav-ul .nav-ul .nav-li {
+    background-color: white;
+    
+  
+
+}

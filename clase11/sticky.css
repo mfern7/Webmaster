@@ -1,0 +1,38 @@
+
+/* sticky.css */
+
+* {
+    box-sizing: border-box;
+
+}
+
+.contenedor {
+    background-color: burlywood;
+    width: 600px;
+    margin: auto;
+    display: flex;
+    
+}
+
+.nav-costado {
+   width: 200px;
+   position: sticky;
+   top: 0;
+   background-color: blueviolet;
+   align-self: flex-start; /* permite fijar el contedor hijo dentro del contenedor padre */
+}
+
+.contenido {
+    width: 400px;
+    background-color: white;
+    text-align: justify;
+}
+
+.espacio {
+    width: 600px;
+    height: 2000px;
+    margin: auto;
+    background-color: aqua;
+
+
+}
