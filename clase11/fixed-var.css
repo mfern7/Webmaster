@@ -9,6 +9,8 @@
 .nav {
     background-color: burlywood;
     position: fixed;
+    width: 100%;
+    
 }
 
 .nav-ul {

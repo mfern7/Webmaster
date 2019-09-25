@@ -25,28 +25,105 @@ body {
 
 .contenedor {
     max-width: 1000px;
-    
-}
-
-.contenido {
-    background-color: beige;
-    
+    margin: auto;
 }
 
 .nav {
     background-color: orange;
-    
+    height: 50px;
+    border-radius: 4px 4px 0px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .nav-ul {
-    background-color: white;
+    background-color: orange;
     display: flex;
+    align-items: center;
+    
 }
   
 
-.nav-ul .nav-ul .nav-li {
-    background-color: white;
+.nav-ul .nav-li {
+    list-style: none;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+    padding: 0px 15px;
     
-  
+}
+
+.form {
+    
+    margin-right: 50px;   
+
+}
+
+.contenido {
+
+    background-color: white;
+    padding: 20px 15px;
+}
+.slider img {
+    width: 100%;
+
+}
+
+
+.info-principal {
+    display: flex;
+
+}
+
+
+.categorias {
+    width: 30%;
+}
+
+.categorias h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+
+.categorias-ul {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.categogias-li {
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.categorias-a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    border-bottom: 1px dashed grey;
+    width: 100%;
+}
+
+.productos {
+    width: 70%;
+    background-color: aqua;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+
+}
+
+.prod1 {
+    display: flex; 
+    border: 2px solid yellow;
 
 }
