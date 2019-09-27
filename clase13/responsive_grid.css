@@ -1,0 +1,101 @@
+
+/* :root  hace disponible el contenido para todo el css
+    --nombredelavariable  define variables
+*/
+:root{
+    --color-primario:red;
+    --color-secundario: aquamarine;
+    --color-terciario: green;
+    --color-cuarto: white;
+
+    --titulo-desktop: 40;
+    --titulo-tablet: 12px;
+    
+    --celdauno: 6;
+    --celdados: 3;
+    --celdacuatro: 2;
+
+}
+
+body {
+    background-color: var(--color-secundario);
+}
+
+h1 {
+    font-size: 40px;
+}
+
+/* @media query se usa para definir distitas configuraciones de acuerdo a la resolucion de la pantalla*/
+
+
+
+
+    body {
+        background-color: var(--color-primario);
+    }
+
+    .grilla {
+        display: grid;
+        grid-template-columns: repeat(var(--celdauno), 1fr);
+    }
+
+    .celda {
+        border: 2px solid yellow;
+    }
+
+@media (max-width: 1024px) {
+    
+    body {
+        background-color: var(--color-secundario);
+    }
+
+    
+    .grilla {
+            grid-template-columns: repeat(var(--celdados), 1fr);
+        }
+    .celda {
+            border: 2px solid blue;
+        }
+
+    }
+
+    @media (max-width: 768px) {
+
+        body {
+                background-color: var(--color-cuarto);
+            }
+        
+        .grilla {
+                display: grid;
+                grid-template-columns: repeat(var(--celdacuatro), 1fr);
+            }
+        
+        .celda {
+                border: 2px solid green;
+            }    
+
+        }
+
+
+
+
+
+    /*
+@media (max-height: 480px) { 
+
+    .h1 {
+        color: white;
+    }
+    
+    }
+    
+
+@media (min-width: 1024px) { 
+
+    body {
+        background-color: var(--color-terciario);
+    }
+
+}
+*/
+

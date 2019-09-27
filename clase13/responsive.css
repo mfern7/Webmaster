@@ -1,0 +1,59 @@
+
+/* :root  hace disponible el contenido para todo el css
+    --nombredelavariable  define variables
+*/
+:root{
+    --color-primario:red;
+    --color-secundario: aquamarine;
+    --color-terciario: green;
+    --color-cuarto: white;
+
+    --titulo-desktop: 40;
+    --titulo-tablet: 12px;
+    
+
+}
+
+body {
+    background-color: var(--color-secundario);
+}
+
+h1 {
+    font-size: 40px;
+}
+
+/* @media query se usa para definir distitas configuraciones de acuerdo a la resolucion de la pantalla*/
+
+
+@media (max-width: 768px) {
+
+    body {
+        background-color: var(--color-primario);
+    }
+
+    /* calc() se usa para hacer operaciones con variables*/
+    h1 {
+        font-size: calc(var(--titulo-desktop) * 4px);
+        
+       
+    }
+
+
+@media (max-height: 480px) { 
+
+    .h1 {
+        color: white;
+    }
+    
+    }
+    
+
+@media (min-width: 1024px) { 
+
+    body {
+        background-color: var(--color-terciario);
+    }
+
+}
+
+
