@@ -1,0 +1,244 @@
+
+/* :root  hace disponible el contenido para todo el css
+    --nombredelavariable  define variables
+*/
+/* :root{
+    --color-primario:red;
+    --color-secundario: aquamarine;
+    --color-terciario: green;
+    --color-cuarto: white;
+
+    --titulo-desktop: 40;
+    --titulo-tablet: 12px;
+    
+    --celdauno: 6;
+    --celdados: 3;
+    --celdacuatro: 2;
+
+}
+*/
+
+
+/* alienea*/
+* {
+    box-sizing: border-box;
+
+}
+
+
+/* --------------------------------------------- */
+
+/* --------------------------------------------- */
+
+ .cuadricula1 {
+    background-color: aqua;
+    width: 1024px;
+    height: 100px;
+    margin: auto;
+}
+.cuadricula2 {
+    display: flex;
+    width: 1024px;
+    height: 150px;
+    margin: auto;
+}
+
+.uno {
+    width: 30%;
+    background-color: red;
+    padding-top: 25px;
+    text-align: center;
+    color: white;
+}
+
+.dos {
+    width: 40%;
+    background-color: green;
+}
+
+.tres {
+    width: 30%;
+    background-color: yellow;
+}
+
+
+.grilla {
+    width: 1024px;
+    /* height: 150px;  */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: violet;
+    grid-gap: 10px;
+    margin: auto;
+    justify-content: center;
+    padding: 25px 20px;
+}
+
+.celda {
+   height: 100px;
+    background-color: brown;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* --------------------------------------------- */
+
+
+
+ @media (max-width: 768px) {
+
+
+.cuadricula1 {
+    background-color: aqua;
+    width: 768px;
+    height: 100px;
+    margin: auto;
+}
+.cuadricula2 {
+    /* display block reseteo el display flex*/
+    display: block;
+    width: 768px;
+    height: 150px;
+    margin: auto;
+}
+
+.uno {
+    width: 100%;
+    background-color: red;
+}
+
+.dos {
+    width: 100%;
+    background-color: green;
+}
+
+.tres {
+    width: 100%;
+    background-color: yellow;
+}
+
+
+.grilla {
+    width: 768px;
+    /* height: 150px; */
+    display: grid;
+    grid-template-columns:  1fr;
+    background-color: violet;
+    grid-gap: 10px;
+    margin: auto;
+    justify-content: center;
+    padding: 20px;
+}
+
+.celda {
+   
+    background-color: brown;
+    padding: 25px;
+    align-items: center;
+}
+}
+
+
+
+
+
+
+
+
+/*  --------------------------------------------  */
+
+
+/* -----------------------------------------------------*/
+
+
+
+
+
+
+
+/*
+body {
+    background-color: var(--color-secundario);
+}
+
+h1 {
+    font-size: 40px;
+}
+
+/* @media query se usa para definir distitas configuraciones de acuerdo a la resolucion de la pantalla*/
+
+
+
+/*
+    body {
+        background-color: var(--color-primario);
+    }
+
+    .grilla {
+        display: grid;
+        grid-template-columns: repeat(var(--celdauno), 1fr);
+    }
+
+    .celda {
+        border: 2px solid yellow;
+    }
+
+@media (max-width: 1024px) {
+    
+    body {
+        background-color: var(--color-secundario);
+    }
+
+    
+    .grilla {
+            grid-template-columns: repeat(var(--celdados), 1fr);
+        }
+    .celda {
+            border: 2px solid blue;
+        }
+
+    }
+
+    @media (max-width: 768px) {
+
+        body {
+                background-color: var(--color-cuarto);
+            }
+        
+        .grilla {
+                display: grid;
+                grid-template-columns: repeat(var(--celdacuatro), 1fr);
+            }
+        
+        .celda {
+                border: 2px solid green;
+            }    
+
+        }
+*/
+
+
+
+
+    /*
+@media (max-height: 480px) { 
+
+    .h1 {
+        color: white;
+    }
+    
+    }
+    
+
+@media (min-width: 1024px) { 
+
+    body {
+        background-color: var(--color-terciario);
+    }
+
+}
+*/
+
