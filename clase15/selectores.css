@@ -1,0 +1,33 @@
+/* selectores.css*/
+
+
+tr:first-child {
+    background-color: pink;
+}
+
+/*
+td:first-child {
+    background-color: aqua;
+}
+
+tr:last-child {
+    background-color: chartreuse;
+}
+
+tr:nth-child(8) {
+    background-color: blueviolet; 
+}
+*/
+
+tr:nth-child(2n+5) {
+    background-color: chocolate;
+}
+
+td::selection {
+    background-color: rgb(89, 149, 228);
+}
+
+/* investigar*/
+td[class^=”val”] {
+    background-color: bisque;
+}

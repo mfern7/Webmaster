@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="svg.css">
+    <title>SVG</title>
+</head>
+<body>
+
+    <!-- -->
+    <h1>Insertando un SVG</h1>
+    
+    <h2>inline</h2>
+            <svg xmlns="http://www.w3.org/2000/svg" width="200" height="300">
+
+                <style>
+                    circle {
+                        transition: all 1s;
+                    }
+            
+                    circle:hover {
+                        fill: pink;
+                        transform: scale(1.2);
+                    }
+            
+                </style>
+                
+                <rect width="50" height="100" x="50" y="20" fill="#f90" />
+                <circle cx="70" cy="60" r="50" stroke="#900" stroke-width="5" fill="transparent" />
+            </svg>
+
+
+
+    <!--requiere codigo en css -->
+    <h2>iframe</h2>
+        <iframe src="hola.svg" frameborder="0"></iframe>
+
+
+    <!-- No es interactivo, ideal para logos -->
+    <h2>Img</h2>
+    <img src="hola.svg" alt="Rectangulo">
+
+    <h2>Background image</h2>
+    
+</body>
+</html>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="300">
+
+    <style>
+        circle {
+            transition: all 1s;
+        }
+
+        circle:hover {
+            fill: pink;
+            transform: scale(1.2);
+        }
+
+    </style>
+    
+    <rect width="50" height="100" x="50" y="20" fill="#f90" />
+    <circle cx="70" cy="60" r="50" stroke="#900" stroke-width="5" fill="transparent" />
+</svg>
