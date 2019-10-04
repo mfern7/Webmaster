@@ -1,0 +1,30 @@
+/* */
+
+
+
+}
+/* visibility hidden*/
+.cloak{
+    border:0;
+    clip:rect(0 0 0 0);
+    height:1px;
+    margin:-1px;
+    overflow:hidden;
+    padding:0;
+    position:absolute;
+    width:1px;
+    }
+
+.cloak:focus {
+
+    width: 200px;
+    height: 50px;
+    clip: auto;
+    background-color: blueviolet;
+}
+
+
+a:focus {
+    /* outline: none*/
+    outline: 2px solid pink;
+
