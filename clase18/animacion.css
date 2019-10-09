@@ -1,0 +1,63 @@
+
+* {
+    box-sizing: border-box;
+}
+
+.cuadrado {
+    width: 200px;
+    height: 200px;
+    animation-name: cambioDeFondo;
+    animation-duration: 2000ms;
+    border: 1px solid rebeccapurple;
+    /* background-color: saddlebrown;*/
+    animation-fill-mode: forwards;
+    /* animation-iteration-count: 4; */
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+
+
+
+@keyframes cambioDeFondo {
+    from {
+        background-color: chartreuse;
+        width: 200px;
+
+    }
+
+    to {
+        background-color: saddlebrown;
+        width: 200px;
+        border-radius: 50%;
+        transform:  translate(100px, 100px);
+    }
+}
+
+.circulo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: blue;
+    animation-name: cambioDeFondo2;
+    animation-duration: 2000ms;
+    animation-iteration-count: infinite;
+}
+
+@keyframes cambioDeFondo2 {
+    0% {
+        background-color: chartreuse;
+
+    }
+
+    35% {
+        background-color: saddlebrown;
+        transform:  translate(0px, 0px);
+    }
+
+    100% {
+        background-color: aqua;
+        transform:  translate(100px, 100px);
+    }
+
+}
