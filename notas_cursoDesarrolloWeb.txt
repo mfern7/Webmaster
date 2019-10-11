@@ -148,3 +148,11 @@ cuenta en TW (tweter analytics)
 
 
 
+clase 19 
+
+limpar codigo de SVG
+https://jakearchibald.github.io/svgomg/
+
+
+libreria de animaciones para html:
+animate.css

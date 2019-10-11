@@ -6,8 +6,10 @@
 .cuadrado {
     width: 200px;
     height: 200px;
+    /* parametros indispensable para que funcione animation */
     animation-name: cambioDeFondo;
     animation-duration: 2000ms;
+    /* -------- */
     border: 1px solid rebeccapurple;
     /* background-color: saddlebrown;*/
     animation-fill-mode: forwards;

@@ -1,0 +1,23 @@
+
+* {
+
+    box-sizing: border-box;
+ }
+
+
+ .monster {
+
+    width: 190px;
+    height: 240px;
+    /* background-color: aqua; */
+    background-image: url('monster.png');
+    animation: animar 1s infinite steps(10);
+    transform: scale(0.5);
+ }
+
+ @keyframes animar {
+
+    100% { background-position: -1900px;}
+ }
+
+ /* ver web: animate.css */

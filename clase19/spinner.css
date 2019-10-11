@@ -1,0 +1,81 @@
+
+* {
+    box-sizing: border-box;
+}
+
+.spinner-container {
+    width: 200px;
+}
+
+.spinner {
+    max-width: 100%;
+    /* forma 1 de animation:
+    animation-name: rotacion;
+    animation-duration: 2000ms;
+    animation-iteration-count: infinite; */
+    /* define el modo de transicion al igual que transition: transform ease*/
+    /* animation-timing-function: linear;  */
+    /* otra forma de definir el animation */
+    animation: rotacion 2s infinite linear;
+
+}
+
+@keyframes rotacion {
+    0% {
+
+    }
+
+    50% {
+        fill: red;
+
+    }
+
+    100% {
+        transform: rotate(360deg);
+        fill: black;
+        
+    }
+
+}
+
+.aguja {
+
+    width: 15px;
+    height: 150px;
+    background-color: black;
+
+    /*margin: 50px auto;  */
+    /*animation-name: rotacion2;
+    animation-duration: 2000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: steps(60)
+    */
+    animation: rotacion2 60s infinite steps(60);
+    transform-origin: 50% 100%;
+    position: relative;
+    left: calc(50% - 7px);
+    top: calc(50% - 150px);
+}
+
+@keyframes rotacion2 {
+    0% {
+
+    }
+
+    100% {
+        
+        transform: rotate(360deg);
+        fill: black;
+        
+    }
+
+}
+
+.tick {
+    width: 350px;
+    height: 350px;
+    background-size: contain;
+    background-image: url("reloj_fondo.jpg");
+    background-repeat: no-repeat;
+    position: absolute;
+}
