@@ -9,28 +9,34 @@
  // busca dentro de document el id saludo y lo guardo el contenido html en una variable
  var botonSaludo = document.getElementById("saludo");
  var tituloUno = document.getElementById("main-title");
+ var tituloDos = document.getElementById("titulo1");
+
  var mostrarLista = document.getElementById("show-list");
- 
+ var lista = document.getElementById("main-ul");
+
 console.log(botonSaludo);
 console.log(tituloUno);
 
- //
- botonSaludo.innerText = "hola!"
-
+ //boton1
+ botonSaludo.innerText = "hola!";
+ 
  botonSaludo.addEventListener("click", function(){
      //alert("curso de JavaScript")}
     botonSaludo.style.color = "red";
     tituloUno.style.color = "red";
  });
 
-// probar funcionamiento
- tituloUno.addEventListener("click", function(){
-     tituloUno.style.color = "blue";
+
+// boton2
+tituloDos.addEventListener("click", function(){
+    tituloUno.style.color = "blue";
  });
 
 
+ //boton mostrar lal ista
+
 mostrarLista.addEventListener("clik", function() {
 
-        mostrarLista.classList.toggle("active");
+    lista.classList.toggle("active");
 
 });
