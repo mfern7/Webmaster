@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="hamburguer.css">
+    <title>Hamburguer</title>
+</head>
+<body>
+    
+<nav class="main-nav">
+
+
+    <ul class="main-ul">
+
+        <li class="main-li"><a class="main-a" href="#">Inicio</a></li>
+
+        <li class="main-li"> <a class="main-a" href="#">Nosotros</a></li>
+
+        <li class="main-li"> <a class="main-a" href="#">contacto</a></li>
+
+        <li class="main-li"> <a class="main-a" href="#">Login</a></li>
+    </ul>
+
+    <div class="hamb">
+        <span class="line"></span>
+        <span class="line"></span>
+        <span class="line"></span>
+    </div>
+
+
+</nav>
+
+<script>
+
+var hamb = document.querySelector(".hamb");
+var list = document.querySelector(".main-ul");
+
+hamb.addEventListener("click", function(){
+    list.classList.toggle("active");
+
+});
+
+</script>
+
+</body>
+</html>
