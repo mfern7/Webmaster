@@ -1,4 +1,4 @@
-
+﻿
 linkmultimedial@gmail.com
 
 ingrid kitanik
@@ -156,3 +156,14 @@ https://jakearchibald.github.io/svgomg/
 
 libreria de animaciones para html:
 animate.css
+
+
+----------------
+
+hacker rank  --> sitio para logica en entrevistas
+
+github.com/aerolab/challenge
+
+----------------
+
+
