@@ -1,4 +1,4 @@
-﻿
+
 linkmultimedial@gmail.com
 
 ingrid kitanik
@@ -165,5 +165,40 @@ hacker rank  --> sitio para logica en entrevistas
 github.com/aerolab/challenge
 
 ----------------
+
+
+clase 1 SQL
+
+
+int id_libro
+VARCHAR titulo
+VARCHAR 
+
+
+INSERT INTO libros
+VALUES (
+    1,
+    "Harry Potter 1",
+    "Rowling",
+    364,
+    1997,
+    "Salamandra"
+)
+
+clase 2 SQL
+
+orden de las comandos
+
+SELECT (DISTINC)
+FROM
+JOIN
+WHERE
+GROUP BY
+	HAVING
+ORDER BY campo1 ASC/DES, campo2
+LIMIT
+
+
+SELECT nombre, COUNT(*) FROM usuarios GROUP BY ocupacion
 
 
