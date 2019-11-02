@@ -202,3 +202,17 @@ LIMIT
 SELECT nombre, COUNT(*) FROM usuarios GROUP BY ocupacion
 
 
+clase 25
+
+SELECT nombre FROM `libros` JOIN editorial on libros.id_editorial = editorial.id_editorial WHERE autor LIKE "rowling"
+
+es igual usar USING cuando los 2 campos se llamana igual
+
+SELECT nombre FROM `libros` JOIN editorial USING(id_editorial) WHERE autor LIKE "rowling"
+
+----
+
+
+SELECT titulo, precio,
+IF(precio>1000,'caro','barato') AS Estado
+FROM libros
