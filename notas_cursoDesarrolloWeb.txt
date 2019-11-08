@@ -216,3 +216,10 @@ SELECT nombre FROM `libros` JOIN editorial USING(id_editorial) WHERE autor LIKE 
 SELECT titulo, precio,
 IF(precio>1000,'caro','barato') AS Estado
 FROM libros
+
+
+clase 2 PHP
+
+para envio de mail
+
+cuenta en sengrid y bajar prepros

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Metodo post</title>
+</head>
+<body>
+    <h1>Metodo POST</h1>
+ 
+ <form action="post.php" method="post">
+    <label>
+        Nombre:
+        <input type="text" name="nombre">
+    </label>
+    <label>
+        Password:
+        <input type="password" name="passcode">
+    </label>
+    <br>
+    Pais:<br>
+    <select name="pais">
+        <option value="AR">Argentina</option>
+        <option value="PE">Peru</option>
+        <option value="BR">Brasil</option>
+    </select>
+    <br>
+    <br>
+    Turno cursada:
+    <br>
+    <label>
+        tarde
+        <input type="radio" name="turno" value="tarde">
+    </label>
+    <label>
+        mañana
+        <input type="radio" name="turno" value="mañana">
+    </label>
+    <label>
+        noche
+        <input type="radio" name="turno" value="noche">
+    </label>
+    <br>
+    <Label>
+        Acepto condiciones:
+        <input type="checkbox" name="condiciones" value="acepta">
+    </Label>
+
+    <br>
+    <br>
+    <input type="submit" value="Enviar">
+ </form>
+
+
+</body>
+</html>
