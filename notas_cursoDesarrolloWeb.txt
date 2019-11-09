@@ -223,3 +223,10 @@ clase 2 PHP
 para envio de mail
 
 cuenta en sengrid y bajar prepros
+
+
+----------------
+
+clase 4 php
+
+usar include en PHP para incluir partes de codigo HTML
