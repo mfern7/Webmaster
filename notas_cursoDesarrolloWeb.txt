@@ -230,3 +230,9 @@ cuenta en sengrid y bajar prepros
 clase 4 php
 
 usar include en PHP para incluir partes de codigo HTML
+
+PHP tipos de queries:
+-------------------
+insert   |  select
+delete	 |
+update   |
