@@ -1,0 +1,48 @@
+.listado{
+	display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr) ) ;
+	grid-gap: 48px;
+}
+
+img {
+	max-width: 100%;
+}
+
+.listado-libro{
+	border: 2px solid darkred;
+	text-align: center;
+	color: #333;
+	padding: 24px;
+	text-decoration: none;
+	
+	transition:  box-shadow 0.4s;
+}
+.listado-libro:hover{
+	box-shadow: 0 0 5px #BBB;
+}
+.listado-libro img{
+	height: 400px;
+	object-fit: cover;
+}
+.listado-libro h2{
+	font-style: italic;
+}
+.listado-libro_autor{
+	font-style: normal;
+}
+
+form {
+	display: grid;
+	max-width: 400px;
+	margin: 20px auto;
+	font-size: 1.2em;
+}
+
+.home form {
+	margin-left: 0;
+	margin-right: auto;
+}
+
+input {
+	margin-bottom: 20px;
+}
