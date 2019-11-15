@@ -1,0 +1,48 @@
+/* prueba.scss*/
+
+body {
+    background-color: pink;
+
+}
+
+
+$rojo: #900;
+$naranja: #F90;
+$m1200: 1200px;
+
+/* partials, siver para importar desde otros archivos scss*/
+@import 'cabecera';
+
+/* variables*/ 
+body {
+
+    background-color: $rojo;
+    color: $naranja;
+}
+
+/* nesting*/
+/* & para generar correctamente pegado el :hover a la etiqueta a*/
+.botonera {
+    background-color: aquamarine;
+    a {
+        color: white;
+        &:hover {
+            color: black;
+        }
+    }
+}
+
+
+@media (max-width: $m1200) {
+    body {
+        background-color: $rojo;
+    }
+}
+
+
+h1 {
+    font-size: 100px;
+@media (max-width: 700px) { 
+    font-size: 20px;
+}
+}
