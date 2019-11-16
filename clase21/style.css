@@ -1,10 +1,18 @@
 
 #main-ul {
     display: none;
+
 }
 
 
 #main-ul.active {
-
+  
     display: block;
+    animation: fadeIn 5s;
+}
+
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+      to { opacity: 1; }
 }

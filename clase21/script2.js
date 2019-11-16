@@ -35,7 +35,7 @@ tituloDos.addEventListener("click", function(){
 
  //boton mostrar lal ista
 
-mostrarLista.addEventListener("clik", function() {
+mostrarLista.addEventListener("click", function() {
 
     lista.classList.toggle("active");
 
