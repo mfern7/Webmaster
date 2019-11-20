@@ -236,3 +236,13 @@ PHP tipos de queries:
 insert   |  select
 delete	 |
 update   |
+
+
+----------------
+jquery
+
+https://developers.google.com/speed/libraries
+
+
+chequear sitio para comparar jquery y javascript:
+you might not use jquery

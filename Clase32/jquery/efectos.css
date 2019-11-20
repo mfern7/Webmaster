@@ -1,0 +1,13 @@
+
+.caja {
+
+    background-color: azure;
+    padding: 16px;
+    max-width: 600px;
+    margin: auto;
+}
+
+.rojo {
+
+    background-color: red;
+}
