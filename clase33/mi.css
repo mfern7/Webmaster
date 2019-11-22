@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+}
+
+.swiper-container {
+
+    background-color: pink;
+    max-width: 800px;
+    margin: 80px auto;
+}
+
+.swiper-slide {
+    padding: 20px;
+    text-align: center;
+}

@@ -1,0 +1,2 @@
+Esto se llama desde archivo.txt
+Hola desde archivo txt

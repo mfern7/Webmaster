@@ -246,3 +246,14 @@ https://developers.google.com/speed/libraries
 
 chequear sitio para comparar jquery y javascript:
 you might not use jquery
+
+clase 33
+
+librerias JS para efectos carrousel y agrandar imagenes
+lightbox / swiper
+
+
+JS sitios para aprender --> https://javascript30.com/
+							https://jsparagatos.com/
+
+
