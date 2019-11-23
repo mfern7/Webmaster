@@ -1,0 +1,28 @@
+.listado{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 48px;
+}
+
+.listado-libro{
+	border: 2px solid darkred;
+	text-align: center;
+	color: #333;
+	padding: 24px;
+	text-decoration: none;
+	
+	transition:  box-shadow 0.4s;
+}
+.listado-libro:hover{
+	box-shadow: 0 0 5px #BBB;
+}
+.listado-libro img{
+	height: 400px;
+	object-fit: cover;
+}
+.listado-libro h2{
+	font-style: italic;
+}
+.listado-libro_autor{
+	font-style: normal;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" >
+		<title>Registrarse</title>
+	</head>
+
+	<body>
+		<form method="post" action="registro_pr.php">
+			<label for="usuario">Usuario</label>
+			<input type="text" name="usuario" id="usuario" >
+			<!-- muestro img --> 
+			<div id="respuesta">
+
+			</div>
+			<!-- -->
+
+
+			<label for="clave">Contraseña</label>
+			<input type="password" name="clave" id="clave" >
+			
+			<label for="nombre">Nombre Completo</label>
+			<input type="text" name="nombre" id="nombre">
+			
+			<label for="email">Email</label>
+			<input type="text" name="email" id="email" >
+			
+			<input type="submit" value="Registrarse">
+
+		</form>
+
+		<!-- estoy en registro php -->
+		<script src="preguntar.js"></script>
+
+
+	</body>
+</html>

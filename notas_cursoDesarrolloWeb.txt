@@ -247,6 +247,7 @@ https://developers.google.com/speed/libraries
 chequear sitio para comparar jquery y javascript:
 you might not use jquery
 
+-----------------------
 clase 33
 
 librerias JS para efectos carrousel y agrandar imagenes
@@ -256,4 +257,33 @@ lightbox / swiper
 JS sitios para aprender --> https://javascript30.com/
 							https://jsparagatos.com/
 
+--------------------
+clase 34
 
+user : mf1 / 123456
+
+
+AJAX con consulta de PHP a Mysql
+
+
+FORM  ---> JS ---> PHP ---> MySQL
+	  <---    <---     <---
+
+
+
+proyecto webmaster: dropdown box
+opcion 1: 
+
+hacer consulta a DB y ocultar / mostrar contenido con CSS 
+
+
+opcion 2: 
+
+usar AJAR para consulta async
+
+
+
+JSconf charlas en youtube
+
+cuenta en 
+open weather map
