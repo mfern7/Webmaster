@@ -290,3 +290,18 @@ open weather map
 
 marcosf
 c0nsultaApi
+
+
+
+098f139cd33ee4a524c9831f38974f51
+
+
+https://api.openweathermap.org/data/2.5/weather?q=Buenos%20Aires&units=metric&appid=098f139cd33ee4a524c9831f38974f51
+
+
+
+
+cuenta en sengrid e isntalar Nodejs
+
+videos de JS:
+wes bos

@@ -1,0 +1,21 @@
+
+[
+		{
+			"nombre": "Argentina",
+			"poblacion": 47000000,
+			"colores": ["azul", "blanco", "celeste"]
+		},
+		{
+			"nombre": "Alemania",
+			"poblacion": 81000000,
+			"colores": ["amarillo", "rojo", "negro"]
+		},
+		{
+			"nombre": "Peru",
+			"poblacion": 3200000000,
+			"colores": ["rojo", "blanco"]
+		}
+
+]
+
+
