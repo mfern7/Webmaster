@@ -303,5 +303,49 @@ https://api.openweathermap.org/data/2.5/weather?q=Buenos%20Aires&units=metric&ap
 
 cuenta en sengrid e isntalar Nodejs
 
+
+sengrid
+marcosf9
+s3ngr1d2019
+
+
 videos de JS:
 wes bos
+
+
+clase 36:
+
+tutorial como subir a hosting
+
+JS: referencia de Eventos en MDN  
+
+IIEF
+
+
+buscar terminal --> Hyper io
+
+Node/npm: (terminal de node)
+
+	npm init /npm init --yes
+
+	npm i jquery
+	npm i http-server --save-dev
+	npm i http-server -g
+				para ejecutar: http-server
+	npm i node-sass --save-dev
+	npm i node-saas -g
+				para ejecutar: node-sass (dir orig scss) -o (dir dest css)
+							    node-sass scss -o css
+							    node-sass --watch scss -o css  (para ejecucion automatica)
+							    node-sass --watc scss -o css --output-style=expanded
+
+
+package.json
+
+	"scripts": {
+    "dev": "node-sass --watch scss -o css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+
+
+ --> npm run dev
