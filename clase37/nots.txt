@@ -1,0 +1,26 @@
+clase 37
+
+descargar archivos desde github 
+
+https://github.com/mfern7/nodejs.git
+
+
+
+NODEJS
+despues de borrar carpetas  se puede volver a crear las dependencias con : npm i
+
+archivos principales de la config del proyecto npm (cofiguracion de las dependencias):
+
+package.json
+package-lock.json
+
+
+vincular repo en Netlify (Web hosting solo para HTML/CSS )
+
+1) pushear a github archivos exceptuando : node_modules y archivos css/*.css
+  a)crear file .gitignore para excluir node_modules y archivos css/*.css
+  b)crear file .gitkeep dentro de css/ para poder subir solo la carpeta
+
+2) crear proyecto en Netlify para vincular el repo
+
+3) Puedo crear branch dev en github y que Netlify me cree un ambiente de testeo antes de aceptar el pull request a Master

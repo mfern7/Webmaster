@@ -1,0 +1,15 @@
+{
+  "name": "clase37",
+  "version": "1.0.0",
+  "description": "",
+  "main": "linter.js",
+  "scripts": {
+    "linter": "eslint . --fix"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^6.7.1"
+  }
+}

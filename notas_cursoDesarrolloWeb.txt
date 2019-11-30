@@ -340,6 +340,7 @@ Node/npm: (terminal de node)
 							    node-sass --watc scss -o css --output-style=expanded
 
 
+
 package.json
 
 	"scripts": {
@@ -347,5 +348,42 @@ package.json
     "test": "echo \"Error: no test specified\" && exit 1"
   },
 
-
+Ejecuta el script
  --> npm run dev
+
+clase 37
+
+NODEJS
+despues de borrar carpetas  se puede volver a crear las dependencias con : npm i
+
+archivos principales de la config del proyecto npm (cofiguracion de las dependencias):
+
+package.json
+package-lock.json
+
+
+vincular repo en Netlify (Web hosting solo para HTML/CSS )
+
+1) pushear a github archivos exceptuando : node_modules y archivos css/*.css
+  a)crear file .gitignore para excluir node_modules y archivos css/*.css
+  b)crear file .gitkeep dentro de css/ para poder subir solo la carpeta
+
+2) crear proyecto en Netlify para vincular el repo
+
+3) Puedo crear branch dev en github y que Netlify me cree un ambiente de testeo antes de aceptar el pull request a Master
+
+
+
+corrector de JS
+
+eslint
+npm install eslint --dave-dev
+https://eslint.org/docs/user-guide/getting-started
+
+se puede instalar como ext en VisualEstudio code
+
+husky npm:
+npm install husky --save-dev
+
+
+
