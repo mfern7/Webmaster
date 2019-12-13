@@ -1,0 +1,13 @@
+<p>servicios works!</p>
+
+{{ datamascotas | json }}
+
+<ul>
+   <li *ngFor="let x of datamascotas">
+    Nombre: {{ x.nombre  }}<br>
+    tipo: {{ x.tipo }} <br>
+    foto: <img src="{{ x.imagen }}" alt="perro">
+</li> 
+
+
+</ul>

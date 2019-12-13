@@ -328,6 +328,9 @@ Node/npm: (terminal de node)
 
 	npm init /npm init --yes
 
+
+	npm i (instala las dependecias en la carpeta node_modules a partir del package.json)
+
 	npm i jquery
 	npm i http-server --save-dev
 	npm i http-server -g
@@ -393,3 +396,51 @@ clase38
 PWA
 
 envio de mail x PHP --> cuenta en 000webhost.com // tutorial como subir archivos en github
+
+
+clase39 --- Angular
+
+npm install -g typescript
+
+tsc -v --> ver
+
+tsc -w prueba.ts --> compilacion automatica
+
+ng new super-utn --style=scss --routing=true --skipTests=true
+
+
+clase 40 -- Angular
+
+npm run start
+
+localhost:4200
+
+
+
+estilos generales van en src/styles.scss
+estilos de componestes van en src/app/app.component.scss
+
+componentes:
+
+C:\Users\Diseño multimedial\Documents\MarcosF_web2\clase39\angular\super-utn>
+C:\Users\Diseño multimedial\Documents\MarcosF_web2\clase39\angular\super-utn>ng generate component component/card
+
+CREATE src/app/component/card/card.component.html (19 bytes)
+CREATE src/app/component/card/card.component.ts (262 bytes)
+CREATE src/app/component/card/card.component.scss (0 bytes)
+UPDATE src/app/app.module.ts (477 bytes)
+
+
+Clase41
+
+ng generate component pages/contacto
+
+
+
+npm run prod (para build de prod) 
+
+
+clase42
+
+
+APIs en js del lado del server --> node express  

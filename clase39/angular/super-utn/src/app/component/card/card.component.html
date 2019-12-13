@@ -1,0 +1,23 @@
+
+<!--p>card works!</p-->
+
+<div class="card">
+
+    <div class="card-img">
+        <!--img src="assets/img/playa.jpeg" alt="playa"-->
+        <img src="{{ img }}" alt="playa">
+    </div>
+
+    <div class="card-info">
+        <h2>Playa</h2>
+        <!-- invoco la variable desde card.component.ts por "interpolacion {{ }}" -->
+        <h2>{{ titulo | uppercase }}</h2>
+        <!--p>Esta en la descripcion del destino</p-->
+        <p>{{ desc }}</p>
+        <span> {{ precio }}</span>
+        
+        
+    </div>
+
+</div>
+

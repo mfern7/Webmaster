@@ -1,0 +1,17 @@
+/* You can add global styles to this file, and also import other style files */
+
+//importo parciales
+@import 'parciales/colors';
+@import 'parciales/breakpoints';
+
+body {
+    background-color: var(--red);
+    //aplico este estilo a todo el sitio y no solo a los componentes
+    font-family: Courier New, Courier, monospace;
+}
+
+@media (max-width: $m1024) {
+    body {
+        background-color: var(--green);
+    }
+}
